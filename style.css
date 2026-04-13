@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+} 
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: hsla(0, 0%, 32%, 1);
+    margin-top: 5px;
+    text-align: start;
+}
+
+#container {
+    margin: 10px auto;
+    max-width: 1340px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 3fr 1.2fr;
+}
+
+header {
+    grid-column: 1 / -1;
+}
+
+nav, ul, form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    align-items: flex-start;
+    height: 40px;
+}
+
+form input, form button {
+    height: 100%;
+    border: 1px solid hsla(0, 0%, 80%, 1);
+    padding-left: 10px;
+}
+
+form input {
+    width: 348px;
+}
+
+form button {
+    width: 57px;
+}
+
+form button img {
+    height: 24px;
+    width: 24px;
+}
+
+nav ul {
+    gap: 30px;
+}
+
+.nav-search {
+    gap: inherit;
+    border: 1px solid hsla(0, 0%, 80%, 1);
+}
+
+
+
+main {
+    margin-left: 40px;
+}
+
+main h2 {
+    margin: 20px 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+main .flex {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+main p {
+    margin-top: 20px;
+    width: 65ch;
+}
+
+main .channel-img {
+    width: 42px;
+}
+
+main .feed-img {
+    width: 24px;
+}
+
+main strong {
+    display: block;
+    font-size: 0.875rem;
+}
+
+main span {
+    font-size: 0.875rem;
+    color: hsla(0, 0%, 32%, 1);
+}
+
+
+main .video-channel {
+    margin-bottom: 20px;
+}
+
+
+main .video-channel img {
+    margin-right: 10px;
+}
+
+main button {
+    padding: 14px 28px;
+    border: none;
+    background: hsla(0, 100%, 40%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+section .list-video {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+section .list-img {
+    margin-right: 16px;
+}
+
+section .list-video div {
+    flex: 1;
+    align-items: center;
+}
+
+section .list-video strong {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+section .list-video p {
+    font-size: 0.75rem;
+    max-width: 20ch;
+    padding: 2px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
